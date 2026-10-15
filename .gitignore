@@ -1,0 +1,16 @@
+# 数据集大文件（GitHub 单文件限制 100MB，不上传）
+CUB_200_subset.zip
+raw/
+
+# 冒烟测试产物
+datasets_smoke/
+results_smoke/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 模型权重（如后续生成）
+checkpoints/
+*.pt
+*.pth
